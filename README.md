@@ -2,6 +2,8 @@
 A simple-to-use shell script to generate .gitignore files using the gitignore.io API.
 Many languages and IDEs create files at runtime/ compilation that you don't want to commit to your git repos. <b>gitignorer</b> is a quick script to poll the fantastic <a href="https://www.gitignore.io/" target="_blank">gitignore.io</a> API to generate gitignore files for some of the most common IDEs and languages. It lets you make large .gitignore files in seconds that exclude many files using pattern matching ([see examples below](#example-usage)).
 
+**Please feel free to contribute! This has been tested on Ubuntu 18.04.4 LTS with zsh 5.4.2 only so please let me know of any problems you encounter or improvements you can suggest. Pull requests welcome!**
+
 ## Getting the code
 ### Using Git
 The recommended method to obtain the source code is to use git. This is an easy way to access the latest version of the code. First make sure you have git installed. If not, use your package manager to get it. Then go to the directory where you want to keep script source:
